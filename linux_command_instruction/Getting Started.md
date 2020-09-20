@@ -5,6 +5,7 @@ Prerequisites for getting started:
 
 
 To get started you will need the environment in which you wish to work with.  For my environment, I have chosen Lubuntu.  You can set this up on your desktop/laptop either as dual boot windows/linux or as a virtual machine. Some popular virtual machines are: 
+
     *   Virtual Box: 
             https://www.virtualbox.org/
 
