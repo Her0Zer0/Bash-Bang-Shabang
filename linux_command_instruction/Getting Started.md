@@ -1,4 +1,4 @@
-Prerequisites for getting started: 
+#Prerequisites for getting started: 
 *   Linux Distro (preferably  Debian based for these examples because we will be using Lubuntu for the tutorial)
 *   sudo or root privileges on the account
 *   Access to a terminal window/command line (Ctrl-Alt-T, Ctrl-Alt-F2)
@@ -16,24 +16,24 @@ To get started you will need the environment in which you wish to work with.  Fo
 After you have your linux distro up and running, find a terminal and begin to the next section. 
 
 
-Chapters to follow: 
+##Chapters to follow: 
 
-*   Navigation: 
-*   Finding Things:
-    *   Basic Searching
-    *   Install new Applications
-    *   Getting Help
-*   Working with Files:
-    *   Basic File Commands
-    *   Compression and Archives
-*   System:
-    *   Basic System Commands
-    *   Working with Processes
-    *   Network
-    *   Disk Usage
-*   Neat Things to do:
-    *   Creating Aliases for Common Commands
-    *   Bash Programming Intro
-    *   Graphical User Interfaces for Your Scripts
+*   **Navigation:** 
+*   **Finding Things:**
+    *   _Basic Searching_
+    *   _Install new Applications_
+    *   _Getting Help_
+*   **Working with Files:**
+    *   _Basic File Commands_
+    *   _Compression and Archives_
+*   **System:**
+    *   _Basic System Commands_
+    *   _Working with Processes_
+    *   _Network_
+    *   _Disk Usage_
+*   **Neat Things to do:**
+    *   _Creating Aliases for Common Commands_
+    *   _Bash Programming Intro_
+    *   _Graphical User Interfaces for Your Scripts_
 
 
