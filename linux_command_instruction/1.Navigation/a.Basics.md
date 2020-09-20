@@ -54,7 +54,7 @@ _Library files, includes files for all kinds of programs needed by the system an
 
 ***/lost+found***
 
-_Every partition has a ***lost+found*** in its upper directory.  Files that were save during failures are stored here._
+_Every partition has a ***lost+found*** in its upper directory.  Files that were saved during failures are stored here._
 
 ***/media***
 
@@ -70,7 +70,7 @@ _Typically contains extra and third party software._
 
 ***/proc***
 
-_A virtual file system containing information about system resources.  More information about the meaning of the files in ***proc*** is obtained by entering the command ***man proc*** in the terminal window.  The file proc.txt discusses the virtual filesystem in detail._
+_A virtual file system containing information about system resources.  More information about the meaning of the files in ***proc*** is obtained by entering the command ***man proc*** in the terminal window.  The file proc.txt discusses the virtual file system in detail._
 
 *   ***Note:*** We will also discuss the ***man*** command in more detail later. 
 
@@ -89,7 +89,7 @@ _Similar to ***bin*** but contains only applications that the superuser will nee
 
 ***/snap***
 
-_By default where the files and folders from installed snap packages appear on your system. 
+_By default where the files and folders from installed snap packages appear on your system._
 
 ***/srv***
 
@@ -113,5 +113,9 @@ _Programs, libraries, documentation etc. for all user-related programs._
 ***/var***
 
 _Storage for all variable files and temporary files created by users, such as log files, the mail queue, the print spooler area, space for temporary storage of files downloaded from the Internet, or to keep an image of a CD before burning it._
+
+
+
+## Summary
 
 
