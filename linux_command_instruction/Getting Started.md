@@ -16,7 +16,7 @@ To get started you will need the environment in which you wish to work with.  Fo
 After you have your linux distro up and running, find a terminal and begin to the next section. 
 
 
-##Chapters to follow: 
+## Chapters to follow: 
 
 *   **Navigation:** 
 *   **Finding Things:**
