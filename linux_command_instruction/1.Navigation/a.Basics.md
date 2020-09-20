@@ -4,7 +4,7 @@ Like most things when you are learning for the first time, you need to get the f
 
 If you are on a Debian/Ubuntu based system, you most likely have ***tree*** installed already. If not, please use the following command in your terminal. 
 
-```
+```.sh
 sudo apt install tree
 ```
 ### Example: 
@@ -15,7 +15,9 @@ Now using ***tree*** we are going to look at the linux file system from the root
 
 _In your terminal:_
 
-```{".sh"} {tree -L 1 /}```
+```.sh 
+tree -L 1 /
+```
 
 ### Example: 
 ![Root directory view example: run command tree -L 1 /](../assets/tree_root_dir_view.png)
@@ -87,7 +89,7 @@ _Similar to ***bin*** but contains only applications that the superuser will nee
 
 ***/snap***
 
-
+_By default where the files and folders from installed snap packages appear on your system. 
 
 ***/srv***
 
