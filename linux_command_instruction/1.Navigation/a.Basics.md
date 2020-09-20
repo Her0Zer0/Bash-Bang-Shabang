@@ -8,4 +8,25 @@ If you are on a Debian/Ubuntu based system, you most likely have ***tree*** inst
 sudo apt install tree
 ```
 ### Example: 
-![Install Tree Terminal Example: run command sudo apt install tree](../assets/install_tree.png)
+![Install tree terminal example: run command sudo apt install tree](../assets/install_tree.png)
+
+
+Now using ***tree*** we are going to look at the linux file system from the root directory. 
+
+_In your terminal:_
+
+```
+tree -L 1 /
+```
+
+### Example: 
+![Root directory view example: run command tree -L 1 /](../assets/tree_root_dir_view.png)
+
+
+Using ***tree*** is a pretty handy tool to spit out info about your file structure.  Be sure to keep it in your toolbox when you leave this page. Anyways,... Let us go over what we are looking at. 
+
+
+#### Directories
+
+##### ***/bin***
+    _Common programs, shared by the system, the system administrator and the users_
