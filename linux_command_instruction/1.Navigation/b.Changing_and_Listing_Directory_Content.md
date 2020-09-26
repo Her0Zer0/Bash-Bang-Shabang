@@ -59,7 +59,7 @@ You should see something like this
 
 ![Hidden directories](../assets/hidden_directories.png)
 
-What are these dots?  These dots represent the current directory ( **.** ) (one dot) and the parent directory ( **..** ) (two dots). This means it is another method or strategy we can use to our advantage of navigation.  
+What are these dots?  These dots represent the current directory ( **.** ) (one dot) and the parent directory ( **..** ) (two dots). All directories in the file system have these available for use. This means it is another method or strategy we can use to our advantage of navigation.  
 
 For example, lets create our first document. You can do this multiple ways but I like to use **touch** but we can also use **echo** to create and place something in a document. 
 
