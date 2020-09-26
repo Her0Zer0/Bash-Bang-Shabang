@@ -2,7 +2,13 @@
 
 Like most things when you are learning for the first time, you need to get the foundational knowledge of what you are doing.  In that respect lets go over the file structure for a brief moment so we can understand what we are navigating from here on in. 
 
-If you are on a Debian/Ubuntu based system, you most likely have ***tree*** installed already. If not, please use the following command in your terminal. 
+If you are on a Debian/Ubuntu based system, you most likely have ***tree*** installed already. You can check this by typing the below in your terminal. 
+
+```.sh
+tree --version
+```
+
+If not, please use the following command in your terminal. 
 
 ```.sh
 sudo apt install tree
@@ -23,7 +29,15 @@ tree -L 1 /
 ![Root directory view example: run command tree -L 1 /](../assets/tree_root_dir_view.png)
 
 
-Using ***tree*** is a pretty handy tool to spit out info about your file structure.  Be sure to keep it in your toolbox when you leave this page. Anyways,... Let us go over what we are looking at. 
+Using ***tree*** is a pretty handy tool to spit out info about your file structure.  So what did we just do?  Well, ***tree*** uses the _-L_ option to show how many levels down we want to see and the _l_ (lowercase L) option says we want to look at the root directory or in this case, the _/_ (forward slash).
+
+Be sure to keep it in your toolbox when you leave this page, also if you would like to see some other commands offered by tree, you can type ***man tree*** in your terminal.  
+
+```.sh
+man tree
+```
+
+We will go over the ***man*** (short for manual) in later topics. For now,... Let us go over what we are looking at in the directories. 
 
 
 #### Directories
@@ -34,7 +48,7 @@ _Common programs, shared by the system, the system administrator and the users_
 
 ***/boot***
 
-_The startup files and the kernel, vmlinuz. In some recent distributions also grub data. Grub is a GRand Unified Boot loader and is an attempt to get rid of the many different boot-loaders we know today._
+_The startup files and the kernel, vmlinuz (no this is not a typo). In some recent distributions also grub data. Grub is a GRand Unified Boot loader and is an attempt to get rid of the many different boot-loaders we know today._
 
 ***/dev***
 
@@ -117,5 +131,8 @@ _Storage for all variable files and temporary files created by users, such as lo
 
 
 ## Summary
+With this overview of the file structure, you can see if you are coming from a Windows background it is a little different.  Although, still a capable file system to use and grow to love.  Understanding the file system is the key to getting a better grasp on any OS/Distro.  Some linux distros will have different file structures but these will be in most everyone one of them you can find.  If you ever run into a directory you are not aware of, you can always reach out to the distos documentation and usually find this information pretty easy. 
+
+
 
 
