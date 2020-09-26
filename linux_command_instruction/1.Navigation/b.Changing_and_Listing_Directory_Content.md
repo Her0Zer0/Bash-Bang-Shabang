@@ -6,7 +6,7 @@ Moving around in the file system is the next step we are going to look at. If yo
 
 ![Home directory](../assets/home_directory.png)
 
-Notice the _***~***_ (tilde) character, this represents your home directory in the terminal.  If you do not see this we will start this topic by running the below command. 
+Notice the _***~***_ (tilde) character, this represents your home directory in the terminal.  If you do not see this we will start off by running the below command. 
 
 ```.sh
 cd ~
@@ -14,7 +14,7 @@ cd ~
 
 Or in other words change directory ( ***cd*** ) to my home directory ( ***~*** ). This can be used anywhere in the file system to get you back home. 
 
-Now let's use another command to see where we can navigate too.  In your terminal type ***ls***. 
+Now let's use another command to see where we can navigate too.  In your terminal type ***ls*** (short for list). 
 ```.sh
 ls
 ```
@@ -30,7 +30,11 @@ Type the following:
 cd Documents
 ```
 
-Notice how the prompt in the terminal changed to now include not only the ***~*** but Documents as well? This is the way linux is being helpful to you and letting you know where you are at in your file system.
+Notice how the prompt in the terminal changed to now include not only the ***~*** but Documents as well? 
+
+![Home directory](../assets/documents_prompt.png)
+
+This is the way linux is being helpful to you and letting you know where you are at in your file system.
 
 In your ***Documents*** directory, type out the command: 
 ```.sh
@@ -55,7 +59,7 @@ You should see something like this
 
 ![Hidden directories](../assets/hidden_directories.png)
 
-What are these?  These dots represent the current directory ( **.** ) (one dot) and the parent directory ( **..** ) (two dots). This means it is another method or strategy we can use to our advantage of navigation.  
+What are these dots?  These dots represent the current directory ( **.** ) (one dot) and the parent directory ( **..** ) (two dots). This means it is another method or strategy we can use to our advantage of navigation.  
 
 For Example, lets create our first document. You can do this multiple ways but I like to use **touch** but we can also use **echo** to create and place something in a document. 
 
@@ -86,4 +90,5 @@ ls -a
 ```
 
 You should see something similar below. 
+
 ![List commands together](../assets/ls_commands_together.png)
