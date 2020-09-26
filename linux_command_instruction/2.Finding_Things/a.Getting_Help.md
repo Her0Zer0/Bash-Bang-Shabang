@@ -1,0 +1,5 @@
+## Getting Help
+
+No matter if you are a novice or a seasoned user, we all need help from time to time. There are tons of commands out there in the real world and more being created everyday. How on earth would it be possible to keep up with all these commands and how to use them, much less to always use them in the most efficient way. I'm going to say that unless you have been augmented in some way cybernetically to retain this information, have a photographic memory, or possibly from another higher evolved species this is not possible. Although, if you fall into one of these categories hello to you from earth. 
+
+However, some other ways to find the information we need before going out to phone a friend or start our googling frenzy is to use the ***man*** pages. Short for **Manual**, these pages are super helpful if you need to look at options for a command that you are using and can be printed directly to the console so you never have to leave the terminal. 
