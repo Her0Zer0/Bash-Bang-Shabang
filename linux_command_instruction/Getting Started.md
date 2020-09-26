@@ -19,10 +19,11 @@ After you have your linux distro up and running, find a terminal and begin to th
 ## Chapters to follow: 
 
 *   **Navigation:** 
+    *   _Changing and Listing Directory Content_
 *   **Finding Things:**
+    *   _Getting Help_
     *   _Basic Searching_
     *   _Install new Applications_
-    *   _Getting Help_
 *   **Working with Files:**
     *   _Basic File Commands_
     *   _Compression and Archives_
