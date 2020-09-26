@@ -119,7 +119,7 @@ Yes I just used the parent directory ( **..** ) to move back to my home folder. 
 
 We can also see again our prompt has also changed to reflect our location. We are setting back to just the ( **~** ) or home.
 
-Cool thing is if we need to still see in the **Documents** folder we can still from here by using the **ls** command. 
+Cool thing is if we need to still see in the **Documents** folder we can still do that from here by using the **ls** command. 
 
 ```.sh
 ls Documents
