@@ -134,5 +134,7 @@ _Storage for all variable files and temporary files created by users, such as lo
 With this overview of the file structure, you can see if you are coming from a Windows background it is a little different.  Although, still a capable file system to use and grow to love.  Understanding the file system is the key to getting a better grasp on any OS/Distro.  Some linux distros will have different file structures but these will be in most everyone one of them you can find.  If you ever run into a directory you are not aware of, you can always reach out to the distos documentation and usually find this information pretty easy. 
 
 
+Previous Section:  [_Getting_Started_](../Getting_Started.md)
 
+Next Section: [Changing and Listing Directory Content](./b.Changing_and_Listing_Directory_Content.md#)
 

@@ -19,7 +19,8 @@ After you have your linux distro up and running, find a terminal and begin to th
 ## Chapters to follow: 
 
 *   **Navigation:** 
-    *   _Changing and Listing Directory Content_
+    *   [_Basics_](./1.Navigation/a.Basics.md)
+    *   [_Changing and Listing Directory Content_](./1.Navigation/b.Changing_and_Listing_Directory_Content.md)
 *   **Finding Things:**
     *   _Getting Help_
     *   _Basic Searching_
