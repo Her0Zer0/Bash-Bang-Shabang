@@ -48,7 +48,7 @@ If you would like a darker look or to change the settings for your standard **ge
 I'm going to select **Cobalt**. Then just close the window, and the changes are automatically applied. 
 
 
-#### Visual Studio Code (or your choice of text editor)
+### [](#visual-studio-code) Visual Studio Code (or your choice of text editor)
 
 Alternatively you can install Visual Studio Code by Microsoft. This is a great product you are wanting a great editor with a large community and plugins. Navigate to your browser, and once launched type in the search box **vscode**.  After you get your search results back, it should be the first or second option. Click into the link and download the appropriate package for your system. It will be the download with the extension of **.deb** as described previously. 
 

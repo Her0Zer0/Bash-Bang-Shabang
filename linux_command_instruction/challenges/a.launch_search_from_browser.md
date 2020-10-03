@@ -1,1 +1,1 @@
-[Back to Installing Visual Studio Code](../2.Finding_Things/b.Install_New_Applications.md#visual-studio-code-or-your-choice-of-text-editor)
+[Back to Installing Visual Studio Code](../2.Finding_Things/b.Install_New_Applications.md#visual-studio-code)
