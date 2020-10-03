@@ -1,1 +1,1 @@
-[Back to Installing Visual Studio Code](../2.Finding_Things/b.Install_New_Applications.md#visual-studio-code)
+[Back to Installing Visual Studio Code](../2.Finding_Things/b.Install_New_Applications.md#challenge-section)
