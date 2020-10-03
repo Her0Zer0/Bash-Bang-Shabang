@@ -65,4 +65,34 @@ See if you can figure out the rest of the command to do your search, and that is
 Need help? [See how I approached this](../challenges/a.launch_search_from_browser.md)
 
 
+After you have downloaded the **.deb** package lets navigate to it in our terminal. By default this should be in your **~/Downloads** folder. 
+
+We can see it is there by using one of the commands we learned earlier. 
+
+```.sh
+$ ls -l ~/Downloads
+```
+
+The above should give you a print out of the long form of the files similar to the below. 
+
+![Downloads folder with vscode package](../assets/2.finding_things/downloads_vscode.png)
+
+We can now use the **dpkg** to install this **.deb** file. 
+```.sh
+$ sudo dpkg -i ~/Downloads/code_1.49.3-1601661857_amd64.deb
+```
+You will need to use the **sudo** command because this will take administrative (root) privileges since we are altering the state of the system. After you type in your password you should be able to confirm it's installation by typing: 
+```.sh
+$ code --version
+```
+If you just went through this section and don't really want to keep Visual Studio Code, you can simply uninstall it. 
+
+```.sh
+$ sudo dpkg -r code
+```
+You can then confirm uninstall by running the version command again and you should get something back that says **"No such file or directory"**.
+
+
+
+
 
