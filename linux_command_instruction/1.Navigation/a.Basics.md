@@ -136,5 +136,5 @@ With this overview of the file structure, you can see if you are coming from a W
 
 Previous Section:  [_Getting_Started_](../Getting_Started.md)
 
-Next Section: [Changing and Listing Directory Content](./b.Changing_and_Listing_Directory_Content.md#)
+Next Section: [_Changing and Listing Directory Content_](./b.Changing_and_Listing_Directory_Content.md#)
 

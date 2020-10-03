@@ -163,3 +163,6 @@ Directories contain both the current (relative) ( **.** ) and parent paths ( **.
 
 Listing out the contents of a directory is just as easy with the (**ls**) command, and you don't have to be in the directory to use it. The (**ls**) command has many options and can be explored by using the **man** command to view the manual page for **ls**. 
 
+Previous Section:  [_Basics_](./a.Basics.md)
+
+Next Section: [_Getting Help_](../2.Finding_Things/a.Getting_Help.md)

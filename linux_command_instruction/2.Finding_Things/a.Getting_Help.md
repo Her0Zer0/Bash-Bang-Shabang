@@ -81,4 +81,6 @@ Man pages are useful when you are using a command and need a little extra help i
 **Manpath** shows the paths to **man** file locations that are already defined, and we will learn more about this later in the projects section of the course. 
 
 
+Previous Section:  [_Changing and Listing Directory Content_](../1.Navigation/b.Changing_and_Listing_Directory_Content.md)
 
+Next Section: [_Install New Applications_](./b.Install_New_Applications.md)

@@ -22,9 +22,9 @@ After you have your linux distro up and running, find a terminal and begin to th
     *   [_Basics_](./1.Navigation/a.Basics.md)
     *   [_Changing and Listing Directory Content_](./1.Navigation/b.Changing_and_Listing_Directory_Content.md)
 *   **Finding Things:**
-    *   _Getting Help_
-    *   _Basic Searching_
-    *   _Install new Applications_
+    *   [_Getting Help_](./2.Finding_Things/a.Getting_Help.md)
+    *   [_Install new Applications_](./2.Finding_Things/b.Install_New_Applications.md)
+    *   [_Basic Searching_](./2.Finding_Things/c.Basic_Searching.md)
 *   **Working with Files:**
     *   _Basic File Commands_
     *   _Compression and Archives_
