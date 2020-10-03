@@ -4,7 +4,7 @@ Moving around in the file system is the next step we are going to look at. If yo
 
 ### Example: 
 
-![Home directory](../assets/home_directory.png)
+![Home directory](../assets/1.navigation/home_directory.png)
 
 Notice the _***~***_ (tilde) character, this represents your home directory in the terminal.  If you do not see this we will start off by running the below command. 
 
@@ -21,7 +21,7 @@ $ ls
 If you are in your home directory you should see something similar to the below image. 
 
 
-![Home directory contents](../assets/home_directory_contents.png)
+![Home directory contents](../assets/1.navigation/home_directory_contents.png)
 
 These are the standard folders that come with every user directory created within your system. So later when we create users for an example to our administration purposes you will be able to see the similar structure there. For now, lets navigate into and out of some of these directories (folders).
 
@@ -32,7 +32,7 @@ $ cd Documents
 
 Notice how the prompt in the terminal changed to now include not only the ***~*** but Documents as well? 
 
-![Home directory](../assets/documents_prompt.png)
+![Home directory](../assets/1.navigation/documents_prompt.png)
 
 This is the way linux is being helpful to you and letting you know where you are at in your file system.
 
@@ -57,7 +57,7 @@ $ ls -a
 
 You should see something like this
 
-![Hidden directories](../assets/hidden_directories.png)
+![Hidden directories](../assets/1.navigation/hidden_directories.png)
 
 What are these dots?  These dots represent the current directory ( **.** ) (one dot) and the parent directory ( **..** ) (two dots). All directories in the file system have these available for use. This means it is another method or strategy we can use to our advantage of navigation.  
 
@@ -91,7 +91,7 @@ $ ls -a
 
 You should see something similar below. 
 
-![List commands together](../assets/ls_commands_together.png)
+![List commands together](../assets/1.navigation/ls_commands_together.png)
 
 * **ls** -> prints out a list of files and folders in the directory. 
 * **ls -l** -> prints out the total number of files and folders in a directory using the long listing format. 
@@ -115,7 +115,7 @@ $ cd ..
 ```
 Yes I just used the parent directory ( **..** ) to move back to my home folder. Let's also list (**ls**) out the current home folder again to prove where we are in the file system.
 
-![List commands](../assets/listing_current_directory.png)
+![List commands](../assets/1.navigation/listing_current_directory.png)
 
 We can also see again our prompt has also changed to reflect our location. We are setting back to just the ( **~** ) or home.
 
@@ -129,7 +129,7 @@ Lets do another one with our current directory (sometimes called relative) ( **.
 $ ls ./Documents
 ```
 
-![List commands from another directory](../assets/ls_from_another_directory.png)
+![List commands from another directory](../assets/1.navigation/ls_from_another_directory.png)
 
 Notice the output to the screen is the same with or without the relative path.  This is just another way of saying, **"List the contents of the Documents folder from my current directory"**. 
 
@@ -151,7 +151,7 @@ This is just a preference of the user, the terminal doesn't care about order. Al
 ```.sh
 $ ls documents
 ```
-![Last ls example](../assets/last_ls_example.png)
+![Last ls example](../assets/1.navigation/last_ls_example.png)
 
 Notice when I used the lowercase d when trying to access the Documents folder, the prompt tried to again be helpful by letting me know that it couldn't find it. 
 

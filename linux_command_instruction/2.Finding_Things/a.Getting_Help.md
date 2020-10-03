@@ -66,7 +66,7 @@ $ manpath
 $ man manpath
 ```
 ### Example: 
-![view or Man Path directories](../assets/manpath.png)
+![view or Man Path directories](../assets/2.finding_things/manpath.png)
 
 We will come back to **man** pages a little later and build our own with some of the projects later in this course. For now, take some time to look over the manual for the man page. The command again is the,...
 

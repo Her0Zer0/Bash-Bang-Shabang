@@ -14,7 +14,7 @@ If not, please use the following command in your terminal.
 $ sudo apt install tree
 ```
 ### Example: 
-![Install tree terminal example: run command sudo apt install tree](../assets/install_tree.png)
+![Install tree terminal example: run command sudo apt install tree](../assets/1.navigation/install_tree.png)
 
 
 Now using ***tree*** we are going to look at the linux file system from the root directory. 
@@ -26,7 +26,7 @@ $ tree -L 1 /
 ```
 
 ### Example: 
-![Root directory view example: run command tree -L 1 /](../assets/tree_root_dir_view.png)
+![Root directory view example: run command tree -L 1 /](../assets/1.navigation/tree_root_dir_view.png)
 
 
 Using ***tree*** is a pretty handy tool to spit out info about your file structure.  So what did we just do?  Well, ***tree*** uses the _-L_ option to show how many levels down we want to see and the _l_ (lowercase L) option says we want to look at the root directory or in this case, the _/_ (forward slash).
