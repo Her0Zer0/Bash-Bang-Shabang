@@ -9,14 +9,14 @@ Moving around in the file system is the next step we are going to look at. If yo
 Notice the _***~***_ (tilde) character, this represents your home directory in the terminal.  If you do not see this we will start off by running the below command. 
 
 ```.sh
-cd ~
+$ cd ~
 ```
 
 Or in other words change directory ( ***cd*** ) to my home directory ( ***~*** ). This can be used anywhere in the file system to get you back home. 
 
 Now let's use another command to see where we can navigate too.  In your terminal type ***ls*** (short for list). 
 ```.sh
-ls
+$ ls
 ```
 If you are in your home directory you should see something similar to the below image. 
 
@@ -27,7 +27,7 @@ These are the standard folders that come with every user directory created withi
 
 Type the following: 
 ```.sh
-cd Documents
+$ cd Documents
 ```
 
 Notice how the prompt in the terminal changed to now include not only the ***~*** but Documents as well? 
@@ -38,21 +38,21 @@ This is the way linux is being helpful to you and letting you know where you are
 
 In your ***Documents*** directory, type out the command: 
 ```.sh
-ls
+$ ls
 ```
 
 Did you see anything? If your Documents folder is empty, you most likely just seen the prompt return with nothing between. It should look the same as if you hit enter multiple times. Now you didn't do anything wrong if this is what you are seeing, ***ls*** is just saying there is nothing in the folder for you to see. 
 
 You can also see how many files are in this directory with the option ***l*** (lowercase L). 
 ```.sh
-ls -l
+$ ls -l
 ```
 
 In the output you should see _**total 0**_ if you have an empty folder or the word **total** and the number of files in the directory after it. 
 
 However, lets look again.  This time use the option ***-a*** (lowercase A).
 ```.sh
-ls -a
+$ ls -a
 ```
 
 You should see something like this
@@ -65,12 +65,12 @@ For example, lets create our first document. You can do this multiple ways but I
 
 ###### Touch Example: 
 ```.sh
-touch testing_text_file.txt
+$ touch testing_text_file.txt
 ```
 
 ###### Echo Example: 
 ```.sh
-echo 'Some text to throw in a file' > testing_text_file.txt
+$ echo 'Some text to throw in a file' > testing_text_file.txt
 ```
 
 The only real difference to care about at this moment in these commands is **touch** just creates the file and **echo** actually creates the file and places the text inside. 
@@ -80,13 +80,13 @@ The only real difference to care about at this moment in these commands is **tou
 Now that we have a file in the directory lets run all the above **ls** commands again. 
 
 ```.sh
-ls
+$ ls
 ```
 ```.sh
-ls -l
+$ ls -l
 ```
 ```.sh
-ls -a
+$ ls -a
 ```
 
 You should see something similar below. 
@@ -102,7 +102,7 @@ Don't worry though this will be covered in later discussions.
 
 There are a bunch of options available for the **ls** command.  You can see more of them by viewing the manual for the **ls** command by typing in your terminal. 
 ```.sh
-man ls
+$ man ls
 ```
 
 As stated before, this is a great way to see what a command is capable of before going out to the internet for solutions. Although, do go out to the internet if needed and for more uses and ideas from others.  
@@ -111,7 +111,7 @@ Carrying on!
 
 Let's move out of the Documents directory: 
 ```.sh
-cd ..
+$ cd ..
 ```
 Yes I just used the parent directory ( **..** ) to move back to my home folder. Let's also list (**ls**) out the current home folder again to prove where we are in the file system.
 
@@ -122,11 +122,11 @@ We can also see again our prompt has also changed to reflect our location. We ar
 Cool thing is if we need to still see in the **Documents** folder we can still do that from here by using the **ls** command. 
 
 ```.sh
-ls Documents
+$ ls Documents
 ```
 Lets do another one with our current directory (sometimes called relative) ( **.** ). 
 ```.sh
-ls ./Documents
+$ ls ./Documents
 ```
 
 ![List commands from another directory](../assets/ls_from_another_directory.png)
@@ -137,19 +137,19 @@ Notice the output to the screen is the same with or without the relative path.  
 We can also use our options from other directories.  We just need to add them. 
 
 ```.sh
-ls -la Documents
+$ ls -la Documents
 ```
 
 or 
 
 ```.sh
-ls -al Documents
+$ ls -al Documents
 ```
 
 This is just a preference of the user, the terminal doesn't care about order. Although, it is case sensitive. 
 
 ```.sh
-ls documents
+$ ls documents
 ```
 ![Last ls example](../assets/last_ls_example.png)
 

@@ -5,13 +5,13 @@ Like most things when you are learning for the first time, you need to get the f
 If you are on a Debian/Ubuntu based system, you most likely have ***tree*** installed already. You can check this by typing the below in your terminal. 
 
 ```.sh
-tree --version
+$ tree --version
 ```
 
 If not, please use the following command in your terminal. 
 
 ```.sh
-sudo apt install tree
+$ sudo apt install tree
 ```
 ### Example: 
 ![Install tree terminal example: run command sudo apt install tree](../assets/install_tree.png)
@@ -22,7 +22,7 @@ Now using ***tree*** we are going to look at the linux file system from the root
 _In your terminal:_
 
 ```.sh 
-tree -L 1 /
+$ tree -L 1 /
 ```
 
 ### Example: 
@@ -34,7 +34,7 @@ Using ***tree*** is a pretty handy tool to spit out info about your file structu
 Be sure to keep it in your toolbox when you leave this page, also if you would like to see some other commands offered by tree, you can type ***man tree*** in your terminal.  
 
 ```.sh
-man tree
+$ man tree
 ```
 
 We will go over the ***man*** (short for manual) in later topics. For now,... Let us go over what we are looking at in the directories. 
