@@ -1,6 +1,6 @@
 ## Basic Searching
 
-Searching tools are some of the most useful with the terminal because of the obviously limited graphical display, and if used properly can save you lots of time versus using a gui. 
+Searching tools are very useful with the terminal because of the obviously limited graphical display, and if properly used can save you lots of time versus using a gui. 
 
 Some of the tools we are going to talk explicitly about here are
 
@@ -24,14 +24,14 @@ Some of the tools we are going to talk explicitly about here are
 
  Now type: 
  ```.sh
- $ locate test_file
+    $ locate test_file
  ```
 
  Did you find what you was looking for?  I'm going to say probably not since we just created the file and searched for it.  This is because the database that **locate** uses hasn't been updated yet. Run the below commands. 
 
  ```.sh
- $ sudo updatedb
- $ locate test_file
+    $ sudo updatedb
+    $ locate test_file
  ```
 
  You was probably able to see the file that was created earlier now. As you can see this is the only downside to **locate** but this is the reason it is also a fast option. After new files are created they will not show in the database until after they are added.  Not to worry though, **updatedb** is ran regularly with a cron job so it isn't something you will have to do often. It is just a good side note in case it is ever needded. 
@@ -39,12 +39,12 @@ Some of the tools we are going to talk explicitly about here are
  Here is an example when using the ignore case option. 
 
  ```.sh
- $ locate -i TEXT_FILE.txt 
+    $ locate -i TEXT_FILE.txt 
  ```
 
 By using **locate** in this manner, the command actually looks at it like so: 
 ```.sh
-$ locate "*text_file.txt*"
+    $ locate "*text_file.txt*"
 ```
 If we truely wanted to search for the "NAME" of the file we can use the **-b** option '\NAME' or in this case '\text_file.txt'.
 
