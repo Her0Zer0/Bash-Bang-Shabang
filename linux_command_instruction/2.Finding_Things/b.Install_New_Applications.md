@@ -11,7 +11,7 @@ Debian based systems have access to their vast package library, and you can see 
 The main command-line package manager for Debian based systems.  It provides tools for searching, managing, and querying information about packages within your system. Super handy tool for the toolbox and you will most likely see this option chosen over the former mention (dpkg).
 
 
-**Author Note:** learning about bash or the shell is super useful. It is even better if you force yourself to use it more instead of relying directly the GUI all the time. The commands that will most likely follow in this course can be done pretty easy from any GUI but trying to find ways to use the shell will benefit you more as you learn through reading this material. With that said, you may see something from here on out noted as **_Challenge Section_** above with some extra notes to try.  Then a link to the particular challenge in how I solved it. Of course, this is not mandatory but just meant to help with the understanding. 
+**Author Note:** learning about bash or the shell is super useful. It is even better if you force yourself to use it more instead of relying directly on the GUI all the time. The commands that will most likely follow in this course can be done pretty easy from any GUI but trying to find ways to use the shell will benefit you more as you learn through reading this material. With that said, you may see something from here on out noted as **_Challenge Section_** above with some extra notes to try.  Then a link to the particular challenge and how I solved it. Of course, this is not mandatory but just meant to help with the understanding. 
 
 #### Gedit (Text Editor)
 
@@ -50,7 +50,7 @@ I'm going to select **Cobalt**. Then just close the window, and the changes are 
 
 ###  Visual Studio Code (or your choice of text editor)
 
-Alternatively you can install Visual Studio Code by Microsoft. This is a great product you are wanting a great editor with a large community and plugins. Navigate to your browser, and once launched type in the search box **vscode**.  After you get your search results back, it should be the first or second option. Click into the link and download the appropriate package for your system. It will be the download with the extension of **.deb** as described previously. 
+Alternatively you can install Visual Studio Code by Microsoft. This is a great product if you are wanting a great editor with a large community and plugins. Navigate to your browser, and once launched type in the search box **vscode**.  After you get your search results back, it should be the first or second option. Click into the link and download the appropriate package for your system. It will be the download with the extension of **.deb** as described previously. 
 
 
 
