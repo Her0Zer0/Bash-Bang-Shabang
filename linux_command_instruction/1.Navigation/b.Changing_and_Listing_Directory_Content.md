@@ -2,7 +2,7 @@
 
 Moving around in the file system is the next step we are going to look at. If you are in your home directory, in the terminal you may see something like this. 
 
-### Example: 
+### Example:
 
 ![Home directory](../assets/1.navigation/home_directory.png)
 
@@ -15,17 +15,19 @@ $ cd ~
 Or in other words change directory ( ***cd*** ) to my home directory ( ***~*** ). This can be used anywhere in the file system to get you back home. 
 
 Now let's use another command to see where we can navigate too.  In your terminal type ***ls*** (short for list). 
+
 ```.sh
 $ ls
 ```
-If you are in your home directory you should see something similar to the below image. 
 
+If you are in your home directory you should see something similar to the below image. 
 
 ![Home directory contents](../assets/1.navigation/home_directory_contents.png)
 
 These are the standard folders that come with every user directory created within your system. So later when we create users for an example to our administration purposes you will be able to see the similar structure there. For now, lets navigate into and out of some of these directories (folders).
 
 Type the following: 
+
 ```.sh
 $ cd Documents
 ```
@@ -37,6 +39,7 @@ Notice how the prompt in the terminal changed to now include not only the ***~**
 This is the way linux is being helpful to you and letting you know where you are at in your file system.
 
 In your ***Documents*** directory, type out the command: 
+
 ```.sh
 $ ls
 ```
@@ -44,6 +47,7 @@ $ ls
 Did you see anything? If your Documents folder is empty, you most likely just seen the prompt return with nothing between. It should look the same as if you hit enter multiple times. Now you didn't do anything wrong if this is what you are seeing, ***ls*** is just saying there is nothing in the folder for you to see. 
 
 You can also see how many files are in this directory with the option ***l*** (lowercase L). 
+
 ```.sh
 $ ls -l
 ```
@@ -51,6 +55,7 @@ $ ls -l
 In the output you should see _**total 0**_ if you have an empty folder or the word **total** and the number of files in the directory after it. 
 
 However, lets look again.  This time use the option ***-a*** (lowercase A).
+
 ```.sh
 $ ls -a
 ```
@@ -63,12 +68,14 @@ What are these dots?  These dots represent the current directory ( **.** ) (one 
 
 For example, lets create our first document. You can do this multiple ways but I like to use **touch** but we can also use **echo** to create and place something in a document. 
 
-###### Touch Example: 
+###### Touch Example:
+
 ```.sh
 $ touch testing_text_file.txt
 ```
 
-###### Echo Example: 
+###### Echo Example:
+
 ```.sh
 $ echo 'Some text to throw in a file' > testing_text_file.txt
 ```
@@ -82,9 +89,11 @@ Now that we have a file in the directory lets run all the above **ls** commands 
 ```.sh
 $ ls
 ```
+
 ```.sh
 $ ls -l
 ```
+
 ```.sh
 $ ls -a
 ```
@@ -101,6 +110,7 @@ The output of some of these can look a little odd or intimidating at first if yo
 Don't worry though this will be covered in later discussions. 
 
 There are a bunch of options available for the **ls** command.  You can see more of them by viewing the manual for the **ls** command by typing in your terminal. 
+
 ```.sh
 $ man ls
 ```
@@ -110,9 +120,11 @@ As stated before, this is a great way to see what a command is capable of before
 Carrying on!
 
 Let's move out of the Documents directory: 
+
 ```.sh
 $ cd ..
 ```
+
 Yes I just used the parent directory ( **..** ) to move back to my home folder. Let's also list (**ls**) out the current home folder again to prove where we are in the file system.
 
 ![List commands](../assets/1.navigation/listing_current_directory.png)
@@ -124,7 +136,9 @@ Cool thing is if we need to still see in the **Documents** folder we can still d
 ```.sh
 $ ls Documents
 ```
+
 Lets do another one with our current directory (sometimes called relative) ( **.** ). 
+
 ```.sh
 $ ls ./Documents
 ```
@@ -132,7 +146,6 @@ $ ls ./Documents
 ![List commands from another directory](../assets/1.navigation/ls_from_another_directory.png)
 
 Notice the output to the screen is the same with or without the relative path.  This is just another way of saying, **"List the contents of the Documents folder from my current directory"**. 
-
 
 We can also use our options from other directories.  We just need to add them. 
 
@@ -151,6 +164,7 @@ This is just a preference of the user, the terminal doesn't care about order. Al
 ```.sh
 $ ls documents
 ```
+
 ![Last ls example](../assets/1.navigation/last_ls_example.png)
 
 Notice when I used the lowercase d when trying to access the Documents folder, the prompt tried to again be helpful by letting me know that it couldn't find it. 

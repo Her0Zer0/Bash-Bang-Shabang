@@ -7,66 +7,78 @@ However, some other ways to find the information we need before going out to pho
 The **man** pages follow a common layout and it is recommended that you use the same for your man pages if you decide to create some later. 
 
 **NAME**
-*   The name of the command or function, followed by a one-line description of what it does.
+
+* The name of the command or function, followed by a one-line description of what it does.
 
 **SYNOPSIS**
-*    In the case of a command, you get a formal description of how to run it and what command line options it takes.
+
+* In the case of a command, you get a formal description of how to run it and what command line options it takes.
 
 **DESCRIPTION**
-*   A textual description of the functioning of the command or function.
+
+* A textual description of the functioning of the command or function.
 
 **EXAMPLES**
-*   Some examples of common usage.
+
+* Some examples of common usage.
 
 **SEE ALSO**
-*   A list of related commands or functions.
+
+* A list of related commands or functions.
 
 **BUGS**
-*   List known bugs.
+
+* List known bugs.
 
 **AUTHOR**
-*   Specify your contact information.
+
+* Specify your contact information.
 
 **COPYRIGHT**
-*   Specify your copyright information.
 
+* Specify your copyright information.
 
 Of course, if you build your own, other fields can be added that you think are important. After all, it is your application/script you are making and users need to be informed if you plan to share and take the time to make a man page. The above list just at least should be included as a best practice. 
 
 There are also a few numbered sections that are described in the man page. 
 
-| Section | Description                                     |
-|---------|-------------------------------------------------|
-|**1**    |_Executable programs or shell commands_          |
-|**2**    |_System calls (functions provided by the kernel)_|
-|**3**    |_Library calls (functions within program libraries)_|
-|**4**    |_Special files (usually found in /dev)_          |
-|**5**    |_File formats and conventions, e.g. /etc/passwd_ |
-|**6**    |_Games_                                          |
-|**7**    |_Miscellaneous (including macro packages and conventions), e.g. man(7), groff(7)_|
-|**8**    |_System administration commands (usually only for root)_|
-|**9**    |_Kernel routines [Non standard]_|
-
+| Section | Description                                                                       |
+| ------- | --------------------------------------------------------------------------------- |
+| **1**   | _Executable programs or shell commands_                                           |
+| **2**   | _System calls (functions provided by the kernel)_                                 |
+| **3**   | _Library calls (functions within program libraries)_                              |
+| **4**   | _Special files (usually found in /dev)_                                           |
+| **5**   | _File formats and conventions, e.g. /etc/passwd_                                  |
+| **6**   | _Games_                                                                           |
+| **7**   | _Miscellaneous (including macro packages and conventions), e.g. man(7), groff(7)_ |
+| **8**   | _System administration commands (usually only for root)_                          |
+| **9**   | _Kernel routines [Non standard]_                                                  |
 
 You can see this information and more in your terminal straight out of the box from any linux distribution. All you have to do is run the below command. 
 
 ```.sh
 $ man man
 ```
+
 Yes, the manual has a manual... moving on...
 
 The system usually stores **man** pages in the **_/usr/share/man_** directory. It is best practice to store your own man pages you create for your scripts in **_/usr/local/man_** directory. 
 
 To view all the paths already available to you, you can use the **manpath** command. 
+
 ```.sh
 $ manpath
 ```
+
 * **Note:** **manpath** also has a **man** page. 
-```.sh
-$ man manpath
-```
-### Example: 
-![view or Man Path directories](../assets/2.finding_things/manpath.png)
+  
+  ```.sh
+  $ man manpath
+  ```
+  
+  ### Example:
+  
+  ![view or Man Path directories](../assets/2.finding_things/manpath.png)
 
 We will come back to **man** pages a little later and build our own with some of the projects later in this course. For now, take some time to look over the manual for the man page. The command again is the,...
 
@@ -79,7 +91,6 @@ $ man man
 Man pages are useful when you are using a command and need a little extra help in how to use it. You can view this by using the **man \<some command we want to view here\>** to print out information to the terminal. 
 
 **Manpath** shows the paths to **man** file locations that are already defined, and we will learn more about this later in the projects section of the course. 
-
 
 Previous Section:  [_Changing and Listing Directory Content_](../1.Navigation/b.Changing_and_Listing_Directory_Content.md)
 
