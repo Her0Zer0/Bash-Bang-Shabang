@@ -1,6 +1,6 @@
 # Bash-Bang-Shabang
-A walk through of basic commands and uses of linux bash to further spark interest in future users!
 
+A walk through of basic commands and uses of linux bash to further spark interest in future users!
 
 Project based approach to learning basic bash scripting and shell commands. 
 
