@@ -4,11 +4,11 @@ If you are going to use any operating system, you will need the knowledge of ins
 
 ### _Debian Package Manager_ (dpkg)
 
-Debian based systems have access to their vast package library, and you can see a list of available stable packages [here](https://packages.debian.org/stable/).  Also using a debian based system you will run into the common **.deb** file extension.  This is the executable for debian and often can just be installed by double clicking the file from the GUI (Graphical User Interface), but sometimes you need to do it from the terminal. This is where **dpkg** comes in handy. 
+Debian based systems have access to their vast package library, and you can see a list of available stable packages [here](https://packages.debian.org/stable/).  Also using a debian based system you will run into the common **.deb** file extension.  This is the executable for debian and often can just be installed by double clicking the file, then usually opens the software center, and install from the GUI (Graphical User Interface), but sometimes you need to do it from the terminal. This is where **dpkg** comes in handy. 
 
 ### _Advanced Package Tool_ (apt)
 
-The main command-line package manager for Debian based systems.  It provides tools for searching, managing, and querying information about packages within your system. Super handy tool for the toolbox and you will most likely see this option chosen over the former mention (dpkg).
+The main command-line package manager for Debian based systems **(apt)**.  It provides tools for searching, managing, and querying information about packages within your system. Super handy tool for the toolbox and you will most likely see this option chosen over the former mention **(dpkg)**.
 
 **Author Note:** learning about bash or the shell is super useful. It is even better if you force yourself to use it more instead of relying directly on the GUI all the time. The commands that will most likely follow in this course can be done pretty easy from any GUI but trying to find ways to use the shell will benefit you more as you learn through reading this material. With that said, you may see something from here on out noted as **_Challenge Section_** above with some extra notes to try.  Then a link to the particular challenge and how I solved it. Of course, this is not mandatory but just meant to help with the understanding. 
 
@@ -32,7 +32,7 @@ If is was installed successfully you should see something like this below.
 
 ![Gedit install with apt](../assets/2.finding_things/gedit_new_document.png)
 
-If you would like a darker look or to change the settings for your standard **gedit** window, it can be done in the preferences section. 
+If you would like a darker look or to change the settings for your standard **gedit** window, and it can be done in the preferences section. 
 
 1. Click on the hamburger (3 stacked lines) button next to the **Save** button.  
 
@@ -95,3 +95,11 @@ $ sudo dpkg -r code
 ```
 
 You can then confirm uninstall by running the version command again and you should get something back that says **"No such file or directory"**.
+
+## Summary
+
+Both **apt** and **dpkg** are useful tools for installing and uninstalling applications within your environment. They also have a handing **man,help,info** pages if needed for a look at some other commands. In this section we just toched on them lightly but it would be worth it to take some time and explore the man pages for these tools. 
+
+Previous Section:  [_Getting Help_](./a.Getting_Help.md)
+
+Next Section: [_Basic Searching_](./c.Basic_Searching.md)

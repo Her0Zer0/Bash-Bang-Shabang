@@ -169,7 +169,7 @@ $ ls documents
 
 Notice when I used the lowercase d when trying to access the Documents folder, the prompt tried to again be helpful by letting me know that it couldn't find it. 
 
-### Summary
+## Summary
 
 Navigating the file system in the terminal is done with the (**cd**) command.  You can change directories by typing **cd** **<directory_name_here>**. 
 

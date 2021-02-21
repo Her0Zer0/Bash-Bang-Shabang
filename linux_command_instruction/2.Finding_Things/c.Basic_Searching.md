@@ -243,3 +243,7 @@ There are many more options for grep to use.  This is just a small sample, and o
 ## Summary
 
 We spoke about basic searching options that are available to you from bash out of the box on your linux distro. These tools are great to have and will help in future lessons to come.  When you get comfortable using them, you may even prefer them over gui options that come with most distros today. Not to mention if you decide to go beyond just basic bash terminal use and decide to start scripting your own bash scripts these could be very useful. 
+
+Previous Section:  [_Install New Applications_](./b.Install_New_Applications.md)
+
+Next Section: [_Basic File Commands_](../3.Working_with_Files/a.Basic_File_Commands.md)
